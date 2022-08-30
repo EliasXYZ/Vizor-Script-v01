@@ -1,0 +1,16 @@
+{
+  "name": "walmart",
+  "version": "1.0.0",
+  "description": "Walmart Module",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshey",
+  "license": "null",
+  "dependencies": {
+    "puppeteer": "^10.2.0"
+  },
+  "repository": "null",
+  "private": true
+}
