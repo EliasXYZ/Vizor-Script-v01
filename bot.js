@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 
 const product_url = "https://www.walmart.com/ip/EVGA-GeForce-RTX-3060-XC-Gaming-12G-Graphic-Card/381307598";
 
-//console.log('Hello Holder');
+//console.log('Hello Human');
 
 async function GivePage(){
     const browser = await puppeteer.launch({headless: false}); //can set to true but wont see browser but it is faster
@@ -44,7 +44,7 @@ async function FillBilling(page){
     await page.waitFor(200);
     await page.type ("input[id='lastName']", 'Phoenix');
     await page.waitFor(200);
-    await page.type ("input[id='phone']", '5613555034');
+    await page.type ("input[id='phone']", 'xxx-xxx-xxxx');
     await page.waitFor(200);
     await page.type ("input[id='email']", 'Phoenix@hotmail.com');
     await page.waitFor(200);
